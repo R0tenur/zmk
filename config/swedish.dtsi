@@ -3,8 +3,6 @@
 #define U_TAP_MS 10
 #define U_WAIT_MS 10
 
-/ {
-	behaviors {
     swe_one: swe_one {
         compatible = "zmk,behavior-macro";
         label = "swe one";
@@ -92,5 +90,3 @@
         mods = <(MOD_LSFT|MOD_RSFT)>;
         bindings = <&swe_three>, <&swe_three_shift>;
     };
-	};
-};
