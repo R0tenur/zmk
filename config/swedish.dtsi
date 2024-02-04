@@ -1,4 +1,3 @@
-
 #include <dt-bindings/zmk/keys.h>
 
 #define U_TAP_MS 10
