@@ -25,7 +25,6 @@
           , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N7>
           , <&macro_release &kp LALT>;
     };
-
     swe_two: swe_two {
         compatible = "zmk,behavior-macro";
         label = "swe two";
@@ -37,7 +36,6 @@
           , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N8>
           , <&macro_release &kp LALT>;
     };
-
     swe_two_shift: swe_two_shift {
         compatible = "zmk,behavior-macro";
         label = "swe two shift";
@@ -49,7 +47,6 @@
           , <&macro_tap     &kp KP_N0 &kp KP_N1 &kp KP_N9 &kp KP_N6>
           , <&macro_release &kp LALT>;
     };
-    
     swe_three: swe_three {
         compatible = "zmk,behavior-macro";
         label = "swe three";
