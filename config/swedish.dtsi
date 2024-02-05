@@ -3,7 +3,6 @@
 #define U_TAP_MS 10
 #define U_WAIT_MS 10
 
-// å
     swe_one: swe_one {
         compatible = "zmk,behavior-macro";
         label = "swe one";
@@ -15,7 +14,6 @@
           , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N2 &kp KP_N9>
           , <&macro_release &kp LALT>;
     };
-// Å    
     swe_one_shift: swe_one_shift {
         compatible = "zmk,behavior-macro";
         label = "swe one shift";
@@ -28,7 +26,6 @@
           , <&macro_release &kp LALT>;
     };
 
-// ä
     swe_two: swe_two {
         compatible = "zmk,behavior-macro";
         label = "swe two";
@@ -41,7 +38,6 @@
           , <&macro_release &kp LALT>;
     };
 
-// Ä
     swe_two_shift: swe_two_shift {
         compatible = "zmk,behavior-macro";
         label = "swe two shift";
@@ -54,7 +50,6 @@
           , <&macro_release &kp LALT>;
     };
     
-// ö
     swe_three: swe_three {
         compatible = "zmk,behavior-macro";
         label = "swe three";
@@ -66,7 +61,6 @@
           , <&macro_tap     &kp KP_N0 &kp KP_N2 &kp KP_N4 &kp KP_N6>
           , <&macro_release &kp LALT>;
     };
-// Ö    
     swe_three_shift: swe_three_shift {
         compatible = "zmk,behavior-macro";
         label = "swe three shift";
