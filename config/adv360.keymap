@@ -7,7 +7,6 @@
     behaviors {
       #include "macros.dtsi"
       #include "version.dtsi"
-      #include "swedish.dtsi"
       #ifndef VERSION_MACRO
       macro_ver: macro_ver {
         compatible = "zmk,behavior-macro";
@@ -27,7 +26,7 @@
           bindings = <&kp>, <&kp>;
       };
     };
-
+E
   keymap {
     compatible = "zmk,keymap";
 
